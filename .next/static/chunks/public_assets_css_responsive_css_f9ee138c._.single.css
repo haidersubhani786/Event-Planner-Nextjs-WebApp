@@ -1,0 +1,2247 @@
+/* [project]/public/assets/css/responsive.css [app-client] (css) */
+@media (width >= 1371px) and (width <= 1600px) {
+  .service-shape {
+    bottom: 368px;
+    left: 50px;
+  }
+
+  .service-shape2 {
+    top: 50px;
+    right: 90px;
+  }
+
+  .wedding-shape2 {
+    top: 178px;
+    right: 50px;
+  }
+
+  .wedding-shape {
+    top: 178px;
+    left: 60px;
+  }
+
+  .single-wedding-box.box-2 {
+    margin: 0 40px 95px;
+  }
+
+  .single-wedding-box.last-child {
+    margin: 0 50px 0 34px;
+  }
+
+  .about-area .about-thumb img {
+    width: 100%;
+    height: 700px;
+  }
+
+  .friend-shape2 {
+    bottom: 66px;
+    right: 102px;
+  }
+
+  .footer-shape2 {
+    top: 100px;
+    right: 50px;
+  }
+
+  .footer-shape {
+    top: 150px;
+    left: 100px;
+  }
+
+  .about-section .about-shape {
+    top: 100px;
+    right: 120px;
+  }
+
+  .about-section .about-thumb-shape {
+    bottom: -86px;
+    left: -30px;
+  }
+
+  .gallery-area.bottom .gallery-shape {
+    top: 80px;
+    right: 108px;
+  }
+
+  .mfp-arrow-left {
+    left: 28%;
+  }
+
+  .mfp-arrow-right {
+    right: 28%;
+  }
+
+  .counter-shape {
+    bottom: 109px;
+    left: 10px;
+  }
+
+  .counter-shape2 {
+    bottom: 80px;
+    right: 10px;
+  }
+
+  .about-us-area .about-thu {
+    bottom: 9px;
+    left: -33px;
+  }
+
+  .team-details-area .contact-info-box {
+    padding: 29px 20px 27px;
+  }
+
+  .breadcumb-area {
+    top: -100px;
+  }
+}
+
+@media (width >= 1200px) and (width <= 1370px) {
+  .sticky {
+    padding: 0 50px;
+  }
+
+  .service-shape {
+    bottom: 320px;
+    left: 50px;
+  }
+
+  .service-shape2 {
+    top: 60px;
+  }
+
+  .wedding-shape {
+    top: 178px;
+    left: 100px;
+  }
+
+  .wedding-shape2 {
+    top: 178px;
+    right: 0;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-next {
+    right: 35%;
+  }
+
+  .single-wedding-box {
+    margin: 0 10px 95px 0;
+  }
+
+  .single-wedding-box.last-child {
+    margin: 0 10px 0 0;
+  }
+
+  .single-wedding-box.box-2 {
+    margin: 0 0 95px 10px;
+  }
+
+  .about-area .about-thumb img {
+    width: 100%;
+    height: 730px;
+  }
+
+  .about-area.style-2 .about-content {
+    text-align: right;
+    padding: 136px 10px 0 0;
+  }
+
+  .about-content {
+    padding: 136px 0 0 10px;
+  }
+
+  .friends-name ul li {
+    margin: 0 15px;
+  }
+
+  .footer-shape {
+    top: 100px;
+    left: 150px;
+  }
+
+  .footer-shape2 {
+    top: 50px;
+    right: 50px;
+  }
+
+  .banner-img-shape {
+    top: 180px;
+    left: -108px;
+  }
+
+  .banner-img-shape2 {
+    top: 180px;
+    right: -133px;
+  }
+
+  .about-section .section-main-title h3 {
+    font-size: 65px;
+  }
+
+  .about-section .about-thumb {
+    margin-right: 50px;
+  }
+
+  .wishes-area .section-main-title h3 {
+    font-size: 70px;
+  }
+
+  .gallery-shape {
+    top: 50px;
+    right: 108px;
+  }
+
+  .mfp-arrow-left {
+    left: 28%;
+  }
+
+  .mfp-arrow-right {
+    right: 28%;
+  }
+
+  .counter-shape {
+    bottom: 60px;
+    left: 40px;
+  }
+
+  .counter-shape2 {
+    bottom: 60px;
+    right: 107px;
+  }
+
+  .breadcumb-area {
+    top: -100px;
+  }
+
+  .about-us-area .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-us-area .about-thumb img {
+    width: 100%;
+  }
+
+  .about-us-area .about-thu {
+    left: 0;
+  }
+
+  .recent-widget-content a {
+    width: 100%;
+  }
+
+  .team-details-area .contact-info-box {
+    padding: 29px 20px 27px;
+  }
+}
+
+@media (width >= 992px) and (width <= 1199px) {
+  #sticky-header.lovebird_nav_manu.lovebird_nav_manu {
+    top: -23px;
+    left: -22px;
+  }
+
+  #sticky-header .lovebird_nav_manu.sticky {
+    top: 0;
+  }
+
+  .sticky {
+    padding: 0 30px;
+  }
+
+  .lovebird_nav_manu {
+    margin: 24px 20px 0;
+  }
+
+  .lovebird_menu > ul > li > a {
+    margin: 23px 16px;
+  }
+
+  .single-service-box, .single-service-box.box-2 {
+    margin-right: 0;
+    padding: 21px 0 54px;
+  }
+
+  .single-service-box.box-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-shape {
+    display: none;
+  }
+
+  .service-shape2 {
+    top: 50px;
+    right: 90px;
+  }
+
+  .wedding-shape {
+    top: 178px;
+    left: 50px;
+  }
+
+  .wedding-shape2 {
+    top: 58px;
+    right: 0;
+  }
+
+  .wedding-thumb img {
+    width: 100%;
+  }
+
+  .single-wedding-box {
+    margin: 0 10px 95px 0;
+  }
+
+  .single-wedding-box.box-2 {
+    margin: 0 0 95px 10px;
+  }
+
+  .single-wedding-box.last-child {
+    margin: 0 5px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-next {
+    top: 58%;
+    right: 35%;
+  }
+
+  .about-area .about-thumb img {
+    width: 100%;
+    height: 660px;
+  }
+
+  .about-area.style-2 .about-thumb img {
+    width: 100%;
+    height: 680px;
+  }
+
+  .about-area .about-content {
+    padding: 50px 0 0;
+  }
+
+  .about-area.style-2 .about-content {
+    text-align: right;
+    padding: 50px 0 0;
+  }
+
+  .about-area:before {
+    width: 51%;
+    height: 100%;
+  }
+
+  .friends-content {
+    text-align: center;
+    padding: 45px 10px 16px;
+  }
+
+  .friends-name ul li {
+    margin: 0 10px;
+  }
+
+  .friend-shape2 {
+    bottom: 60px;
+    right: 102px;
+  }
+
+  .blog-content {
+    width: 91%;
+    padding: 36px 5px 46px;
+    bottom: 50px;
+    left: 15px;
+  }
+
+  .footer-shape {
+    top: 50px;
+    left: 100px;
+  }
+
+  .footer-shape2 {
+    top: 50px;
+    right: 50px;
+  }
+
+  .footer-single-item2 .footer-title h1 {
+    padding-left: 0;
+  }
+
+  .footer-info p {
+    margin-right: 0;
+  }
+
+  .banner-img-shape, .banner-img-shape2 {
+    display: none;
+  }
+
+  .banner-title h1 {
+    padding: 0;
+    font-size: 130px;
+    line-height: 120px;
+  }
+
+  .service-section h1.service-title {
+    font-size: 30px;
+  }
+
+  .about-section .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-thumb img {
+    width: 100%;
+  }
+
+  .about-section .about-thumb-shape {
+    bottom: -86px;
+    left: -100px;
+  }
+
+  .about-section .section-main-title h3 {
+    font-size: 55px;
+    line-height: 42px;
+  }
+
+  .section-title-desc p {
+    padding: 0;
+  }
+
+  .wishes-content {
+    padding: 50px;
+  }
+
+  .wishes-area .section-main-title h3 {
+    font-size: 65px;
+  }
+
+  .gallery-area.bottom .section-main-title h3 {
+    font-size: 70px;
+  }
+
+  .mfp-arrow-left {
+    left: 20%;
+  }
+
+  .mfp-arrow-right {
+    right: 20%;
+  }
+
+  .gallery-shape {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  .gallery-area.bottom .section-title-desc p {
+    padding: 0;
+  }
+
+  .counter-shape {
+    bottom: 50px;
+    left: 50px;
+  }
+
+  .counter-shape2 {
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .call-to-action-area.inner {
+    padding-top: 0;
+  }
+
+  .breadcumb-area {
+    top: -100px;
+  }
+
+  .about-us-area .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-us-area .section-main-title h3 {
+    font-size: 70px;
+  }
+
+  .team-details-area .contact-info-box {
+    gap: 5px;
+    padding: 29px 10px 27px;
+  }
+
+  .team-details-area .contact-info-content h4 {
+    font-size: 15px;
+  }
+
+  .team-details-area .contact-info-content p {
+    font-size: 17px;
+  }
+
+  .team-details-area .team-details-location-box .contact-info-content p {
+    font-size: 16px;
+  }
+
+  .lovebird-testi-arrow-box button.testi-next {
+    z-index: 1;
+    top: 44%;
+    right: 0;
+  }
+
+  .pricing-body {
+    padding: 35px 15px 15px;
+  }
+
+  .accordion li a {
+    font-size: 17px;
+  }
+
+  .service-area.style-2 .service-content {
+    padding: 10px 10px 15px;
+  }
+
+  .call-to-action-area.inner-2 {
+    background: #f4f0ed;
+    padding-top: 0;
+  }
+
+  .widget-sidber {
+    padding: 32px 16px 29px;
+  }
+
+  .recent-widget-content a {
+    width: 100%;
+  }
+
+  .sidber-widget-recent-post {
+    gap: 10px;
+  }
+
+  .sidebar__comments {
+    padding: 46px 15px 43px;
+  }
+
+  .sidebar__comments-text-box p br {
+    display: none;
+  }
+
+  .sidebar__comments-list li + li {
+    margin-top: 0;
+  }
+
+  .sidebar__comments-list li {
+    margin-bottom: 20px;
+    padding-left: 55px;
+  }
+
+  .contact-addres p {
+    font-size: 30px;
+  }
+}
+
+@media (width >= 768px) and (width <= 991px) {
+  .sticky {
+    position: absolute !important;
+  }
+
+  .lovebird_nav_manu {
+    display: none;
+  }
+
+  .mobile-menu-area .sticky {
+    padding: 0 30px;
+    position: absolute !important;
+  }
+
+  .sticky {
+    padding: 0;
+    position: absolute !important;
+  }
+
+  .single-service-box, .single-service-box.box-2 {
+    margin-right: 0;
+  }
+
+  .single-service-box.box-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-area .service-content {
+    padding: 20px 0 0;
+  }
+
+  .service-area {
+    padding: 100px 0;
+  }
+
+  .service-shape, .service-shape2, .wedding-shape, .wedding-shape2 {
+    display: none;
+  }
+
+  .single-wedding-box {
+    text-align: left;
+    margin: 0 57px 30px 26px;
+  }
+
+  .single-wedding-box.last-child {
+    margin: 0 57px 30px 26px;
+  }
+
+  .wedding-desc p:before {
+    display: none;
+  }
+
+  .wedding-thumb img {
+    width: 100%;
+  }
+
+  h1.lovebird-slider-title {
+    font-size: 110px;
+  }
+
+  .lovebird-slider-arrow-box button {
+    top: 559px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-next {
+    right: 20px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-prev {
+    top: 58%;
+    left: 3%;
+  }
+
+  .single-wedding-box.box-2 {
+    text-align: left;
+    margin: 30px 30px 95px;
+  }
+
+  .about-area .about-content {
+    padding: 30px 0 0 30px;
+  }
+
+  .about-area:before {
+    width: 100%;
+  }
+
+  .about-btn {
+    margin-bottom: 30px;
+  }
+
+  .about-area.style-2 .about-content {
+    text-align: left;
+    padding: 30px 30px 0;
+  }
+
+  .about-area.style-2 .section-title-desc p {
+    padding: 0;
+  }
+
+  .friends-content {
+    text-align: center;
+    padding: 45px 0 16px;
+  }
+
+  .friends-name ul li {
+    margin: 0 3px;
+  }
+
+  .text-md-left {
+    text-align: center;
+  }
+
+  .text-sm-left {
+    text-align: left;
+  }
+
+  .section-main-title h1 {
+    font-size: 90px;
+  }
+
+  .gallery-area {
+    padding: 100px 52px 100px 32px;
+  }
+
+  p.testi-desc br {
+    display: none;
+  }
+
+  .blog-area {
+    padding: 100px 0;
+  }
+
+  .blog-content {
+    padding: 36px 15px 46px;
+  }
+
+  .footer-shape, .footer-shape2 {
+    display: none;
+  }
+
+  .footer-single-item2 .footer-title h1 {
+    padding-left: 0;
+  }
+
+  .footer-title h1 {
+    padding-left: 0;
+    font-size: 50px;
+  }
+
+  .footer-info p {
+    margin-right: 0;
+  }
+
+  .lovebird-banner-area {
+    height: 700px;
+    margin-top: 60px;
+  }
+
+  .banner-img-shape, .banner-img-shape2, .banner-sub-title h4 br {
+    display: none;
+  }
+
+  .banner-title h1 {
+    font-size: 130px;
+    line-height: 120px;
+  }
+
+  .service-section {
+    padding: 100px 0;
+  }
+
+  .service-section .service-content {
+    padding: 50px 20px 40px;
+  }
+
+  .about-section {
+    padding: 100px 0;
+  }
+
+  .about-section .about-thumb {
+    text-align: left;
+    margin-right: 0;
+  }
+
+  .about-area .about-thumb img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about-section .about-thumb-shape {
+    bottom: -20px;
+    left: 34px;
+  }
+
+  .about-us-area .about-thumb img {
+    width: 100%;
+  }
+
+  .about-us-area .about-thu {
+    display: none;
+  }
+
+  .wishes-area {
+    padding: 100px 0;
+  }
+
+  .wishes-content {
+    padding: 30px;
+  }
+
+  .wedding-event-area {
+    padding: 100px 0;
+  }
+
+  .gallery-area.bottom {
+    padding: 125px 30px 50px;
+  }
+
+  .gallery-area.bottom .section-title.text-left {
+    margin-bottom: 50px;
+  }
+
+  .gallery-area.bottom .section-title-desc p {
+    padding: 0;
+  }
+
+  .mfp-arrow-left {
+    left: 15%;
+  }
+
+  .mfp-arrow-right {
+    right: 15%;
+  }
+
+  .counter-shape, .counter-shape2 {
+    display: none;
+  }
+
+  .row.call-bg {
+    padding: 65px 0 58px 15px;
+  }
+
+  .footer-area.style-2 {
+    padding: 100px 0 150px;
+  }
+
+  .about-us-area .about-thumb {
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+
+  .about-section .about-thumb img {
+    width: 100%;
+  }
+
+  .team-area.style-inner .single-team-thumb:after {
+    left: 76px;
+  }
+
+  .team-details-area .team-thumb img {
+    width: 100%;
+    margin-bottom: 29px;
+  }
+
+  .portfolio-details-box, .pricing-single-box {
+    margin-bottom: 30px;
+  }
+
+  .pricing-body {
+    padding: 35px 0 30px;
+  }
+
+  .pricing-area, .faq-section .tab_container {
+    padding: 100px 0 0;
+  }
+
+  .row.form-bg {
+    margin-top: 0;
+  }
+
+  .call-to-action-area.inner-2 .row.call-bg {
+    padding: 65px 0 58px 15px;
+  }
+
+  .recent-widget-content a {
+    width: 70%;
+  }
+
+  .widget-catefories-tags a {
+    padding: 6px 20px;
+  }
+
+  h4.blog-details-title {
+    font-size: 26px;
+  }
+
+  .blog-details-author-talk {
+    padding: 41px 30px 40px;
+  }
+}
+
+@media only screen and (width >= 600px) and (width <= 767px) {
+  .sticky {
+    position: absolute !important;
+  }
+
+  .lovebird_nav_manu {
+    display: none;
+  }
+
+  .mobile-menu-area .sticky {
+    padding: 0 30px;
+    position: absolute !important;
+  }
+
+  .sticky {
+    padding: 0;
+    position: absolute !important;
+  }
+
+  h1.lovebird-slider-title {
+    font-size: 80px;
+  }
+
+  .lovebird-slider-sub-title {
+    font-size: 22px;
+  }
+
+  .lovebird-slider-arrow-box button {
+    display: none;
+  }
+
+  .service-area {
+    padding: 100px 0;
+  }
+
+  .single-service-box {
+    margin-bottom: 30px;
+  }
+
+  .single-service-box, .single-service-box.box-2 {
+    margin-right: 0;
+  }
+
+  .single-service-box.box-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-shape2, .service-shape, .counter-single-box:before {
+    display: none;
+  }
+
+  .text-md-left {
+    text-align: left !important;
+  }
+
+  .wedding-shape2, .wedding-shape {
+    display: none;
+  }
+
+  .section-main-title h1 {
+    font-size: 80px;
+  }
+
+  .single-wedding-box {
+    text-align: left;
+    margin: 0 0 95px 30px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-next {
+    top: 50%;
+    right: 40px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-prev {
+    top: 50%;
+    left: 3%;
+  }
+
+  .single-wedding-box.box-2 {
+    text-align: left;
+    margin: 20px 0 95px 30px;
+  }
+
+  .about-area .about-content {
+    padding: 30px 0 0 30px;
+  }
+
+  .about-area:before {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-btn {
+    margin-bottom: 30px;
+  }
+
+  .about-area.style-2 .about-content {
+    text-align: left;
+    padding: 30px 0 0 30px;
+  }
+
+  .about-area.style-2 .section-title-desc p {
+    padding: 0;
+  }
+
+  .friends-content {
+    text-align: center;
+    padding: 45px 0 16px;
+  }
+
+  .friends-name ul li {
+    margin: 0 18px;
+  }
+
+  .single-best-friends {
+    margin-bottom: 30px;
+  }
+
+  .gallery-area .section-main-title h1 {
+    font-size: 65px;
+  }
+
+  .gallery-area {
+    padding: 100px 30px;
+  }
+
+  .mfp-arrow-left {
+    left: 6%;
+  }
+
+  .mfp-arrow-right {
+    right: 6%;
+  }
+
+  .contact-area .section-main-title h1 {
+    font-size: 70px;
+  }
+
+  p.testi-desc br, .footer-shape, .footer-shape2 {
+    display: none;
+  }
+
+  .footer-single-item {
+    padding-top: 0;
+  }
+
+  .footer-logo:before {
+    display: none;
+  }
+
+  .footer-single-item2 {
+    padding-top: 50px;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-top: 50px;
+  }
+
+  .banner-img-shape, .banner-img-shape2, .banner-sub-title h4 br {
+    display: none;
+  }
+
+  .banner-sub-title h4 {
+    font-size: 22px;
+  }
+
+  .banner-title h1 {
+    font-size: 98px;
+    line-height: 100px;
+  }
+
+  .lovebird-banner-area {
+    height: 600px;
+    margin-top: 60px;
+  }
+
+  .service-section .section-main-title h3 {
+    font-size: 58px;
+  }
+
+  .service-section, .about-section {
+    padding: 100px 0;
+  }
+
+  .about-section .about-thumb-shape {
+    bottom: 15px;
+    left: 9px;
+  }
+
+  .about-section .section-main-title h3 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+
+  .wishes-area {
+    padding: 100px 0;
+  }
+
+  .wishes-content {
+    padding: 50px 30px;
+  }
+
+  .section-main-title h3 {
+    font-size: 60px;
+  }
+
+  .section-title-desc p {
+    padding: 0;
+  }
+
+  .gallery-shape {
+    display: none;
+  }
+
+  .gallery-area.bottom .section-title-desc p {
+    padding: 0;
+  }
+
+  .gallery-area.bottom .section-title.text-left {
+    margin-bottom: 50px;
+  }
+
+  .gallery-area.bottom {
+    padding: 100px 33px 50px 50px;
+  }
+
+  .counter-shape, .counter-shape2 {
+    display: none;
+  }
+
+  .call-action-btn {
+    margin-top: 30px;
+  }
+
+  .footer-single-item2 .footer-title h1 {
+    text-align: center;
+  }
+
+  .footer-area.style-2 {
+    padding: 100px 0 120px;
+  }
+
+  .about-us-area .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-us-area .about-thumb img {
+    width: 100%;
+  }
+
+  .about-us-area .about-thu {
+    bottom: 14px;
+    left: -11px;
+  }
+
+  .team-area.style-inner .single-team-thumb:after {
+    left: 256px;
+  }
+
+  .team-area.style-inner .single-team-box:after {
+    display: none;
+  }
+
+  .team-thumb img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-info-box {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-details-box {
+    margin-bottom: 40px;
+  }
+
+  .pricing-single-box {
+    margin-bottom: 30px;
+  }
+
+  .faq-section .tab_container {
+    padding: 60px 0 30px;
+  }
+
+  .row.form-bg {
+    margin-top: 0;
+  }
+
+  .blog-details-thumb.two {
+    margin-bottom: 30px;
+  }
+
+  .row.call-bg {
+    padding: 65px 0 58px 30px;
+  }
+
+  .blog-details-author-talk {
+    padding: 20px 10px;
+  }
+
+  .blog-details-comment.style-two {
+    margin-left: 0;
+  }
+
+  .blog-details-comment-reply {
+    top: 14px;
+    right: 10px;
+  }
+
+  .blog-details-comment-thumb {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .blog-details-submi-button button {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (width >= 480px) and (width <= 599px) {
+  .sticky {
+    position: absolute !important;
+  }
+
+  .lovebird_nav_manu {
+    display: none;
+  }
+
+  .mobile-menu-area .sticky {
+    padding: 0 30px;
+    position: absolute !important;
+  }
+
+  .sticky {
+    padding: 0;
+    position: absolute !important;
+  }
+
+  .lovebird-slider-sub-title {
+    font-size: 26px;
+  }
+
+  h1.lovebird-slider-title {
+    font-size: 90px;
+    line-height: 80px;
+  }
+
+  .lovebird-slider-arrow-box button.slider-next {
+    right: 10px;
+  }
+
+  .lovebird-slider-arrow-box button {
+    left: 10px;
+  }
+
+  .service-shape2 {
+    display: none;
+  }
+
+  .single-service-box, .single-service-box.box-2 {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .service-area .service-content {
+    padding: 50px 0 15px;
+  }
+
+  .single-service-box.box-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-area {
+    padding: 100px 0;
+  }
+
+  .service-shape {
+    display: none;
+  }
+
+  .single-counter-misson {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .text-md-left {
+    text-align: center;
+  }
+
+  .counter-single-box:before, .wedding-shape2, .wedding-shape {
+    display: none;
+  }
+
+  .wedding-event-area .section-main-title h1 {
+    font-size: 70px;
+  }
+
+  .single-wedding-box {
+    text-align: left;
+    margin: 0 30px 70px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-next {
+    right: 20px;
+  }
+
+  .lovebird-wedding-arrow-box button.wedding-prev {
+    top: 58%;
+    left: 5%;
+  }
+
+  .wedding-thumb {
+    margin-bottom: 30px;
+  }
+
+  .single-wedding-box.box-2 {
+    text-align: left;
+    margin: 0 0 70px 30px;
+  }
+
+  .about-area .about-content {
+    padding: 30px 0 0 30px;
+  }
+
+  .about-area:before {
+    width: 100%;
+  }
+
+  .about-btn {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+
+  .about-area.style-2 .about-content {
+    text-align: left;
+    padding: 30px 0 0 30px;
+  }
+
+  .about-area.style-2 .section-title-desc p {
+    padding: 0;
+  }
+
+  .best-friends-area .section-main-title h1 {
+    font-size: 80px;
+  }
+
+  .friends-content {
+    text-align: center;
+    padding: 45px 0 16px;
+  }
+
+  .friends-name ul li {
+    margin: 0 10px;
+  }
+
+  .single-best-friends {
+    margin-bottom: 30px;
+  }
+
+  .friend-shape2 {
+    display: none;
+  }
+
+  .gallery-area {
+    padding: 100px 15px;
+  }
+
+  .gallery-area .section-main-title h1 {
+    font-size: 50px;
+  }
+
+  .mfp-arrow-left {
+    left: -2%;
+  }
+
+  .mfp-arrow-right {
+    right: -2%;
+  }
+
+  .contact-area .section-main-title h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  p.testi-desc br {
+    display: none;
+  }
+
+  .lovebird-testi-arrow-box button.testi-next {
+    right: 10px;
+  }
+
+  .blog-area .section-main-title h1 {
+    font-size: 70px;
+  }
+
+  .footer-shape, .footer-shape2 {
+    display: none;
+  }
+
+  .footer-single-item {
+    padding-top: 0;
+  }
+
+  .footer-single-item2 {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .footer-logo:before {
+    display: none;
+  }
+
+  .footer-logo {
+    margin: 30px 0;
+  }
+
+  .footer-title h1 {
+    padding-left: 0;
+  }
+
+  .lovebird-banner-area {
+    height: 600px;
+    margin-top: 0;
+  }
+
+  .banner-img-shape, .banner-img-shape2, .banner-sub-title h4 br {
+    display: none;
+  }
+
+  .banner-sub-title h4 {
+    font-size: 20px;
+  }
+
+  .banner-title h1 {
+    padding: 0;
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .service-section .section-main-title h3 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .about-shape {
+    display: none;
+  }
+
+  .about-section .about-thumb-shape {
+    bottom: 15px;
+    left: -25px;
+  }
+
+  .section-title-desc p {
+    padding: 0;
+  }
+
+  .wishes-content {
+    padding: 10px;
+  }
+
+  .wishes-area .section-main-title h3 {
+    font-size: 50px;
+    line-height: 1;
+  }
+
+  .wishes-area {
+    padding: 100px 0;
+  }
+
+  .gallery-area.bottom {
+    padding: 100px 10px 50px;
+  }
+
+  .gallery-area.bottom .section-title.text-left {
+    margin-bottom: 50px;
+  }
+
+  .gallery-area.bottom .section-main-title h3 {
+    font-size: 60px;
+    line-height: 1;
+  }
+
+  .gallery-shape {
+    display: none;
+  }
+
+  .gallery-area.bottom .section-title-desc p {
+    padding: 0;
+  }
+
+  .counter-shape, .counter-shape2 {
+    display: none;
+  }
+
+  .team-area .section-main-title h3 {
+    font-size: 50px;
+  }
+
+  .row.call-bg {
+    padding: 65px 0 58px;
+  }
+
+  .call-action-btn {
+    margin-top: 30px;
+  }
+
+  .call-to-action-area.inner {
+    padding-top: 0;
+  }
+
+  .footer-area.style-2 {
+    padding: 100px 0;
+  }
+
+  .about-us-area .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-us-area .about-thumb img {
+    width: 100%;
+  }
+
+  .about-us-area .section-main-title h3 {
+    font-size: 60px;
+  }
+
+  .about-us-area .about-thu {
+    display: none;
+  }
+
+  .about-section .section-main-title h3 {
+    font-size: 55px;
+    line-height: 1;
+  }
+
+  .team-details-area .team-member-title h4 {
+    margin-top: 30px;
+  }
+
+  .contact-info-box {
+    margin-bottom: 20px;
+  }
+
+  .team-details-area .team-details-location-box .contact-info-content p {
+    font-size: 16px;
+  }
+
+  .team-details-area .team-details-skills h4 {
+    margin: 0 0 30px;
+  }
+
+  .breadcumb-content h4 {
+    font-size: 90px;
+  }
+
+  .testimonial-area.style-2 .section-main-title h3 {
+    font-size: 55px;
+  }
+
+  .portfolio-details-box {
+    margin-bottom: 20px;
+  }
+
+  h4.portfolio-details-title {
+    font-size: 30px;
+  }
+
+  .pricing-single-box {
+    margin-bottom: 30px;
+  }
+
+  .pricing-area {
+    padding: 100px 0 0;
+  }
+
+  .accordion li a {
+    padding: 16px 10px;
+    font-size: 18px;
+  }
+
+  .faq-section .tab_container {
+    padding: 100px 0 0;
+  }
+
+  .contact-section .section-main-title h3 {
+    font-size: 70px;
+  }
+
+  .row.form-bg {
+    margin-top: 0;
+    padding: 50px 30px 70px;
+  }
+
+  .contact-section {
+    background: #fff;
+    padding: 100px 0;
+  }
+
+  .google-map iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .call-to-action-area.inner-2 {
+    padding-top: 100px;
+  }
+
+  .call-to-action-area.inner-2 .row.call-bg {
+    padding: 65px 0 58px;
+  }
+
+  .blog-details-thumb {
+    margin-bottom: 30px;
+  }
+
+  .blog-details-content {
+    padding: 27px 15px 20px;
+  }
+
+  h4.blog-details-title {
+    font-size: 22px;
+  }
+
+  .blog-details-author-talk {
+    gap: 0;
+    padding: 41px 15px 40px;
+  }
+
+  h3.blog-details-title.two {
+    font-size: 22px;
+  }
+
+  .blog-details-social-icon {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .blog-details-comment.style-two {
+    margin-left: 0;
+  }
+
+  .blog-details-comment-thumb {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .blog-details-comment-reply {
+    top: 10px;
+    right: 5px;
+  }
+
+  .blog-details-submi-button {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (width >= 320px) and (width <= 479px) {
+  .sticky {
+    position: absolute !important;
+  }
+
+  .lovebird_nav_manu {
+    display: none;
+  }
+
+  .mobile-menu-area .sticky {
+    padding: 0 30px;
+    position: absolute !important;
+  }
+
+  .sticky {
+    padding: 0;
+    position: absolute !important;
+  }
+
+  .lovebird-slider-sub-title {
+    font-size: 20px;
+  }
+
+  h1.lovebird-slider-title {
+    font-size: 60px;
+  }
+
+  .lovebird-slider-arrow-box button {
+    display: none;
+  }
+
+  .lovebird-slider-height {
+    height: 700px;
+  }
+
+  .single-service-box, .single-service-box.box-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .service-shape2 {
+    display: none;
+  }
+
+  .service-area .service-content {
+    padding: 50px 0 15px;
+  }
+
+  h1.service-title {
+    font-size: 45px;
+  }
+
+  .single-service-box, .single-service-box.box-2 {
+    margin-right: 0;
+    padding: 21px 10px 54px;
+  }
+
+  .service-area .single-service-box {
+    margin-bottom: 30px;
+  }
+
+  .service-shape {
+    display: none;
+  }
+
+  .text-md-left {
+    text-align: center;
+  }
+
+  .counter-single-box:before {
+    display: none;
+  }
+
+  .single-counter-misson {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .wedding-event-area {
+    padding: 100px 0;
+  }
+
+  .wedding-shape, .wedding-shape2 {
+    display: none;
+  }
+
+  .wedding-thumb img {
+    width: 100%;
+  }
+
+  .wedding-event-area .section-main-title h1 {
+    margin-top: 0;
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .single-wedding-box {
+    text-align: left;
+    margin: 0 0 30px;
+  }
+
+  .wedding-desc p:before {
+    display: none;
+  }
+
+  .lovebird-wedding-arrow-box button {
+    display: none;
+  }
+
+  .single-wedding-box.box-2 {
+    text-align: left;
+    margin: 30px 0 0 15px;
+  }
+
+  .single-wedding-box.last-child {
+    margin: 0 0 30px 15px;
+  }
+
+  .about-thumb img {
+    width: 100%;
+  }
+
+  .about-area .about-content {
+    padding: 30px 0 0;
+  }
+
+  .about-area .section-main-title h2 {
+    font-size: 50px;
+  }
+
+  .about-area .section-title-desc p {
+    padding: 0;
+  }
+
+  .about-area:before {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-area .about-btn {
+    margin-bottom: 30px;
+  }
+
+  .about-area.style-2 .about-content {
+    text-align: left;
+    padding: 30px 0 0;
+  }
+
+  .about-area.style-2 .section-title-desc p {
+    padding: 0;
+  }
+
+  .best-friends-area {
+    padding: 100px 0;
+  }
+
+  .best-friends-area .section-main-title h1 {
+    margin-top: 0;
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .single-best-friends {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .friends-content {
+    padding: 45px 10px 16px;
+  }
+
+  .friends-name ul li {
+    margin: 0 5px;
+  }
+
+  .friend-shape, .friend-shape2 {
+    display: none;
+  }
+
+  .gallery-area {
+    padding: 100px 15px;
+  }
+
+  .gallery-area .section-main-title h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .gallery__thumb-box {
+    margin: 0 0 40px;
+  }
+
+  .contact-area .section-main-title h1 {
+    margin-top: 0;
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  p.testi-desc br, .lovebird-testi-arrow-box button.testi-next, .lovebird-testi-arrow-box button.testi-prev {
+    display: none;
+  }
+
+  .blog-content {
+    width: 100%;
+    padding: 10px 10px 20px;
+    bottom: 50px;
+    left: 0;
+  }
+
+  .footer-shape, .footer-shape2 {
+    display: none;
+  }
+
+  .footer-title h1 {
+    margin-bottom: 15px;
+    padding-left: 0;
+    font-size: 50px;
+  }
+
+  .footer-info p {
+    margin-right: 0;
+  }
+
+  .footer-logo {
+    margin: 30px 0;
+  }
+
+  .footer-logo:before {
+    display: none;
+  }
+
+  .footer-single-item2 {
+    padding-top: 0;
+  }
+
+  .footer-single-item2 .footer-title h1 {
+    padding-left: 0;
+  }
+
+  .footer-single-item {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .lovebird-banner-area {
+    height: 600px;
+    margin-top: 0;
+  }
+
+  .banner-img-shape2, .banner-img-shape {
+    display: none;
+  }
+
+  .banner-sub-title h4 {
+    font-size: 20px;
+    line-height: 42px;
+  }
+
+  .banner-title h1 {
+    padding: 0;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .service-section {
+    padding: 100px 0;
+  }
+
+  .service-section .section-main-title h3 {
+    margin-top: 0;
+    font-size: 58px;
+    line-height: 65px;
+  }
+
+  .service-section .service-content {
+    padding: 50px 0 40px;
+  }
+
+  .about-section .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-section .about-thumb-shape, .about-shape {
+    display: none;
+  }
+
+  .about-section .section-main-title h3 {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .section-title-desc p {
+    padding: 0;
+  }
+
+  .wishes-content {
+    padding: 0 0 0 10px;
+  }
+
+  .wishes-area .section-main-title h3 {
+    margin-top: 0;
+    font-size: 56px;
+    line-height: 55px;
+  }
+
+  .wishes-btn {
+    margin-bottom: 30px;
+  }
+
+  .gallery-shape {
+    display: none;
+  }
+
+  .gallery-area.bottom {
+    padding: 100px 10px 50px;
+  }
+
+  .gallery-area.bottom .section-main-title h3 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .gallery-area.bottom .section-title-desc p {
+    padding: 0;
+  }
+
+  .gallery-area.bottom .section-title.text-left {
+    margin-bottom: 30px;
+  }
+
+  .counter-shape, .counter-shape2 {
+    display: none;
+  }
+
+  .team-area .section-main-title h3, .testimonial-area.style-2 .section-main-title h3 {
+    font-size: 70px;
+    line-height: 1;
+  }
+
+  .lovebird-testimonial-arrow-box button, .testimonial-area.style-2 p.testi-desc br {
+    display: none;
+  }
+
+  .blog-area .section-main-title h1 {
+    font-size: 80px;
+    line-height: 1;
+  }
+
+  .row.call-bg {
+    padding: 65px 0 58px;
+  }
+
+  .call-action-btn {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .footer-info.text-right {
+    text-align: left !important;
+  }
+
+  .footer-area.style-2 {
+    padding: 100px 0;
+  }
+
+  .breadcumb-content h4 {
+    font-size: 60px;
+  }
+
+  .about-us-area .about-thumb {
+    margin-right: 0;
+  }
+
+  .about-us-area .about-thu {
+    display: none;
+  }
+
+  .about-us-area .section-main-title h3 {
+    font-size: 70px;
+    line-height: 1;
+  }
+
+  .team-details-area .team-member-title h4 {
+    margin: 30px 0 0;
+    font-size: 28px;
+  }
+
+  .team-details-area .contact-info-box {
+    margin-bottom: 30px;
+  }
+
+  .team-details-area .team-details-social-icon ul li i {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    line-height: 30px;
+  }
+
+  .team-details-area .team-details-location-box .contact-info-content p {
+    font-size: 16px;
+  }
+
+  .portfolio-details-box {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-det-title h3 {
+    font-size: 25px;
+  }
+
+  h4.portfolio-details-title {
+    font-size: 30px;
+  }
+
+  .portfolio-details-list-item ul li {
+    display: flex;
+  }
+
+  .pricing-body {
+    padding: 35px 10px 10px;
+  }
+
+  .pricing-single-box {
+    margin-bottom: 30px;
+  }
+
+  .pricing-area {
+    padding: 100px 0 0;
+  }
+
+  .accordion li a {
+    padding: 16px 10px;
+  }
+
+  .accordion a:before {
+    right: 12px;
+  }
+
+  .accordion a:after {
+    right: 6px;
+  }
+
+  .accordion li a span {
+    padding: 0;
+  }
+
+  .faq-section .tab_container {
+    padding: 120px 0 0;
+  }
+
+  .contact-section .section-main-title h3 {
+    font-size: 80px;
+    line-height: 1;
+  }
+
+  .row.form-bg {
+    margin-top: 0;
+    padding: 53px 0 70px;
+  }
+
+  .contact-form-title h2 {
+    margin-bottom: 20px;
+  }
+
+  .section-main-title h3 {
+    font-size: 80px;
+    line-height: 1;
+  }
+
+  .service-area.style-2 .service-content {
+    padding: 10px 0 15px;
+  }
+
+  .call-to-action-area.inner-2 .row.call-bg {
+    padding: 65px 0 58px;
+  }
+
+  .services-details-content h4 {
+    font-size: 25px;
+  }
+
+  .blog-details-thumb.two {
+    margin-bottom: 30px;
+  }
+
+  .widget-sidber {
+    padding: 32px 20px 29px;
+  }
+
+  .sidebar__comments {
+    padding: 46px 10px 43px;
+  }
+
+  .sidebar__comments-list li {
+    padding-left: 60px;
+  }
+
+  .blog-details-area span.mate-text {
+    padding-left: 0;
+  }
+
+  span.mate-text i, span.mate-comment i {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  h4.blog-details-title {
+    font-size: 22px;
+  }
+
+  .blog-details-author-talk {
+    gap: 10px;
+    padding: 41px 0 40px;
+  }
+
+  .blog-details-social-icon {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .blog-area.style-grid .meta-blog p {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .blog-area.style-grid .blog-box-content h3 a {
+    font-size: 18px;
+  }
+
+  .sidber-widget-recent-post {
+    gap: 10px;
+  }
+
+  .recent-widget-content a {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  span.mate-comment {
+    margin-left: 0;
+  }
+
+  .blog-details-content {
+    padding: 27px 16px 20px;
+  }
+
+  .blog-details-area .meta-blog span {
+    margin-right: 9px;
+  }
+
+  .blog-details-area .meta-blog i {
+    padding-right: 9px;
+  }
+
+  h4.blog-details-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .blog-details-author-talk {
+    padding: 41px 18px 40px;
+    display: block;
+  }
+
+  .blog-details-quote {
+    padding-bottom: 22px;
+  }
+
+  .blog-details-author-title p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  h3.blog-details-title {
+    font-size: 18px;
+  }
+
+  p.blog-details-desc {
+    font-size: 16px;
+  }
+
+  .blog-details-socila-box {
+    padding: 19px 0 18px;
+  }
+
+  .blog-details-category span a {
+    margin-bottom: 7px;
+    padding: 6px 19px;
+  }
+
+  .blog-details-social-icon {
+    text-align: left;
+  }
+
+  .single-comment-area {
+    padding: 49px 7px 56px;
+  }
+
+  .blog-details-comment {
+    padding: 29px 22px 25px;
+  }
+
+  .blog-details-comment.style-two {
+    margin-left: 3px;
+  }
+
+  .blog-details-comment-thumb {
+    float: inherit;
+    margin-bottom: 19px;
+  }
+
+  .blog-details-comment-content h2 {
+    margin-right: 7px;
+  }
+
+  .blog-details-comment-content span {
+    display: inline-flex;
+  }
+
+  .widget-sidber {
+    margin-top: 38px;
+    padding: 32px 13px 29px;
+  }
+
+  .blog-details-list-item ul li {
+    font-size: 16px;
+    display: flex;
+  }
+
+  .blog-details-list-item ul li i {
+    margin-right: 5px;
+  }
+
+  h3.blog-details-title.two {
+    margin: 18px 0 16px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .blog-details-thumb img {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=public_assets_css_responsive_css_f9ee138c._.single.css.map*/

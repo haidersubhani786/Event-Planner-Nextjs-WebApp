@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/globals.css"],"sourcesContent":["@import url(\"../../public/assets/css/bootstrap.min.css\");\n@import url(\"../../public/assets/css/bootstrap-icons.css\");\n@import url(\"../../public/assets/css/animate.css\");\n@import url(\"../../public/assets/css/aos.css\");\n@import url(\"../../public/assets/css/flaticon.css\");\n@import url(\"../../public/assets/css/magnific-popup.css\");\n@import url(\"../../public/assets/css/meanmenu.min.css\");\n@import url(\"../../public/assets/css/odometer-theme-default.css\");\n@import url(\"../../public/assets/css/responsive.css\");\n@import url(\"../../public/assets/css/style.css\");\n@import url(\"../../public/assets/css/swiper-bundle.css\");\n@import url(\"../../public/assets/css/theme-default.css\");\n@import url(\"../../public/assets/css/all.min.css\");"],"names":[],"mappings":""}}]
+}

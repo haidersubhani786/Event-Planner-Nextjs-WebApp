@@ -1,0 +1,204 @@
+/* [project]/public/assets/css/meanmenu.min.css [app-client] (css) */
+.mean-container .mean-bar {
+  float: left;
+  z-index: 1;
+  background: #97aa85;
+  width: 100%;
+  min-height: 60px;
+  padding: 4px 0 0;
+  position: relative;
+}
+
+.mean-container a.meanmenu-reveal {
+  cursor: pointer;
+  color: #fff;
+  text-indent: -9999em;
+  float: right;
+  width: 22px;
+  height: 22px;
+  padding: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  display: block;
+  top: 0;
+  right: 0;
+}
+
+.mean-container a.meanmenu-reveal span {
+  background: #fff;
+  height: 3px;
+  margin-top: 3px;
+  display: block;
+}
+
+.mean-container .mean-nav {
+  float: left;
+  background: #0c1923;
+  width: 100%;
+}
+
+.mean-container .mean-nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+  float: left;
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  position: relative;
+}
+
+.mean-container .mean-nav ul li a {
+  color: #232323;
+  float: left;
+  text-align: left;
+  text-transform: capitalize;
+  background: #f8f8f8;
+  width: 90%;
+  margin: 0;
+  padding: 1em 5%;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.mean-container .mean-nav ul li li a {
+  color: #232323;
+  opacity: .75;
+  text-transform: capitalize;
+  visibility: visible;
+  border-top: 1px solid #ffffff40;
+  width: 80%;
+  padding: 1em 10%;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: none !important;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+  width: 70%;
+  padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+  width: 60%;
+  padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+  width: 50%;
+  padding: 1em 25%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+  background: #f8f8f8;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+  text-align: right;
+  z-index: 2;
+  background: #f8f8f8;
+  height: 15px;
+  margin-top: 1px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0 !important;
+  padding: 12px !important;
+}
+
+.mean-container .mean-push {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mean-nav .wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mean-container .mean-bar, .mean-container .mean-bar * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.mean-remove {
+  display: none !important;
+}
+
+.mean-container .mean-bar:after {
+  color: #fff;
+  content: "MENU";
+  font-size: 21px;
+  display: none;
+  position: absolute;
+  top: 12px;
+  left: 5%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+  border-radius: 0;
+}
+
+.mean-container a.meanmenu-reveal span {
+  background: #fff;
+}
+
+.mobile-menu-area {
+  background: #fff;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+  background: none;
+  top: -4px;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover {
+  background: none;
+}
+
+.mean-container .mean-nav ul li {
+  background: #444;
+}
+
+.mean-container a.meanmenu-reveal {
+  color: #fff;
+}
+
+.meanmenu-reveal.meanclose:hover {
+  color: #fff !important;
+}
+
+.mean-container a.meanmenu-reveal:hover span {
+  background: #fff;
+}
+
+.mean-container .mean-bar:before {
+  color: #fff;
+  content: "lovebird";
+  font-size: 28px;
+  font-weight: 600;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+}
+
+/*# sourceMappingURL=public_assets_css_meanmenu_min_css_f9ee138c._.single.css.map*/

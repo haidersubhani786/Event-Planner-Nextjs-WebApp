@@ -1,0 +1,288 @@
+/* [project]/public/assets/css/theme-default.css [app-client] (css) */
+html, body {
+  overflow-x: hidden;
+}
+
+:root, [data-bs-theme="light"] {
+  --primary-color: #002570;
+  --secondary-color: #007eff;
+  --light: #fff;
+  --dark: #000;
+  --body-color: #97a9bf;
+  accent-color: var(--green);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #97a9bf;
+  text-align: left;
+  font-family: Josefin Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+p {
+  color: #232323;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #232323;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: Italianno;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+a {
+  color: #232323;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+a:focus, .btn:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #002570;
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #232323;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.white h1, .white h2, .white h3, .white h4, .white h5, .white h6, .white p, .white i {
+  color: #fff;
+}
+
+.small, small {
+  font-size: 17px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input:focus, button:focus, textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 6px #97aa8599;
+}
+
+select:focus {
+  border-color: var(--secondary-color);
+  outline-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+hr {
+  border-top: 0;
+  border-bottom: 1px solid #eceff8;
+  margin: 60px 0;
+  padding: 0;
+}
+
+hr.style-2 {
+  border-bottom: 1px dashed #232323;
+}
+
+hr.mp-0 {
+  border-bottom: 1px solid #eceff8;
+  margin: 0;
+}
+
+hr.mtb-40 {
+  border-top: 0;
+  border-bottom: 1px solid #eceff8;
+  margin: 40px 0;
+}
+
+label {
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a, i, cite, em, var, address, dfn, ol, li, ul {
+  font-style: normal;
+  font-weight: 400;
+}
+
+::-moz-selection {
+  color: #454545;
+  text-shadow: none;
+  background: #4fc1f0;
+}
+
+::-moz-selection {
+  color: #454545;
+  text-shadow: none;
+  background: #4fc1f0;
+}
+
+::selection {
+  color: #454545;
+  text-shadow: none;
+  background: #4fc1f0;
+}
+
+::placeholder {
+  color: #002570;
+  font-size: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: #002570;
+}
+
+::-moz-placeholder {
+  color: #454545;
+}
+
+:placeholder-shown {
+  color: #454545;
+}
+
+:-ms-placeholder-shown {
+  color: #454545;
+}
+
+.counter_area ::-moz-selection {
+  color: #001d23;
+  text-shadow: none;
+}
+
+.contact_area ::-moz-selection {
+  color: #001d23;
+  text-shadow: none;
+}
+
+.contact_area ::selection {
+  color: #001d23;
+  text-shadow: none;
+}
+
+.contact_area ::placeholder {
+  color: #001d23;
+  font-size: 16px;
+}
+
+.contact_area ::-webkit-input-placeholder {
+  color: #001d23;
+}
+
+.contact_area ::placeholder {
+  color: #001d23;
+}
+
+.contact_area :placeholder-shown {
+  color: #001d23;
+}
+
+.contact_area :-ms-placeholder-shown {
+  color: #001d23;
+}
+
+.blog_reply ::-moz-selection {
+  color: #151948;
+}
+
+.blog_reply ::selection {
+  color: #151948;
+}
+
+.blog_reply::placeholder {
+  color: #151948;
+}
+
+.blog_reply ::-webkit-input-placeholder {
+  color: #151948;
+}
+
+.blog_reply ::placeholder {
+  color: #151948;
+}
+
+.blog_reply :placeholder-shown {
+  color: #151948;
+}
+
+.blog_reply :-ms-placeholder-shown {
+  color: #151948;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-lg-center {
+  text-align: center !important;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=public_assets_css_theme-default_css_f9ee138c._.single.css.map*/
