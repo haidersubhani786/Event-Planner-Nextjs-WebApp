@@ -2322,6 +2322,25 @@ const LovebirdSlider = ()=>{
     _s();
     const prevRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const nextRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const [swiperInstance, setSwiperInstance] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "LovebirdSlider.useEffect": ()=>{
+            if (swiperInstance && prevRef.current && nextRef.current && // @ts-ignore
+            swiperInstance.params.navigation) {
+                // @ts-ignore
+                swiperInstance.params.navigation.prevEl = prevRef.current;
+                // @ts-ignore
+                swiperInstance.params.navigation.nextEl = nextRef.current;
+                swiperInstance.navigation.destroy();
+                swiperInstance.navigation.init();
+                swiperInstance.navigation.update();
+            }
+        }
+    }["LovebirdSlider.useEffect"], [
+        swiperInstance,
+        prevRef,
+        nextRef
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "lovebird-slider-area",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2331,20 +2350,23 @@ const LovebirdSlider = ()=>{
                     modules: [
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__["Navigation"]
                     ],
-                    navigation: {
-                        prevEl: prevRef.current,
-                        nextEl: nextRef.current
-                    },
-                    onInit: (swiper)=>{
-                        // @ts-ignore
-                        swiper.params.navigation.prevEl = prevRef.current;
-                        // @ts-ignore
-                        swiper.params.navigation.nextEl = nextRef.current;
-                        swiper.navigation.init();
-                        swiper.navigation.update();
-                    },
+                    onSwiper: setSwiperInstance,
                     className: "lovebird-slider-active",
                     loop: true,
+                    breakpoints: {
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20
+                        },
+                        1024: {
+                            slidesPerView: 1,
+                            spaceBetween: 30
+                        }
+                    },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2356,7 +2378,7 @@ const LovebirdSlider = ()=>{
                                             className: "lovebird-slider-bg"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 58,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2373,24 +2395,24 @@ const LovebirdSlider = ()=>{
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "lovebird-slider-sub-title",
-                                                                        children: "Save the date for the wedding of June 10,2024"
+                                                                        children: "Save the date for the wedding of June 10,2025"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 42,
+                                                                        lineNumber: 64,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                         className: "lovebird-slider-title cursor-scale",
-                                                                        children: "Muskan & Mursalin"
+                                                                        children: "Romeo & Juliet"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 45,
+                                                                        lineNumber: 67,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                lineNumber: 41,
+                                                                lineNumber: 63,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2403,12 +2425,12 @@ const LovebirdSlider = ()=>{
                                                                             children: "wedding"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                            lineNumber: 51,
+                                                                            lineNumber: 73,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 50,
+                                                                        lineNumber: 72,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2422,60 +2444,60 @@ const LovebirdSlider = ()=>{
                                                                                 className: "fa-solid fa-play"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                                lineNumber: 60,
+                                                                                lineNumber: 82,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                            lineNumber: 54,
+                                                                            lineNumber: 76,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 53,
+                                                                        lineNumber: 75,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                lineNumber: 49,
+                                                                lineNumber: 71,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                        lineNumber: 40,
+                                                        lineNumber: 62,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 61,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                lineNumber: 38,
+                                                lineNumber: 60,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 59,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                lineNumber: 34,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                            lineNumber: 33,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
@@ -2488,7 +2510,7 @@ const LovebirdSlider = ()=>{
                                             className: "lovebird-slider-bg2"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2505,24 +2527,24 @@ const LovebirdSlider = ()=>{
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "lovebird-slider-sub-title",
-                                                                        children: "Save the date for the wedding of June 10, 2024"
+                                                                        children: "Save the date for the wedding of June 10, 2025"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 80,
+                                                                        lineNumber: 102,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                         className: "lovebird-slider-title cursor-scale",
-                                                                        children: "Muskan & Mursalin"
+                                                                        children: "Romeo & Juliet"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 83,
+                                                                        lineNumber: 105,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                lineNumber: 79,
+                                                                lineNumber: 101,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2535,12 +2557,12 @@ const LovebirdSlider = ()=>{
                                                                             children: "wedding"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                            lineNumber: 89,
+                                                                            lineNumber: 111,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 88,
+                                                                        lineNumber: 110,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2554,66 +2576,66 @@ const LovebirdSlider = ()=>{
                                                                                 className: "fa-solid fa-play"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                                lineNumber: 98,
+                                                                                lineNumber: 120,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                            lineNumber: 92,
+                                                                            lineNumber: 114,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                        lineNumber: 91,
+                                                                        lineNumber: 113,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                                lineNumber: 87,
+                                                                lineNumber: 109,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 100,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 99,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 97,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 95,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                lineNumber: 72,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                            lineNumber: 71,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                    lineNumber: 16,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2628,12 +2650,12 @@ const LovebirdSlider = ()=>{
                                 className: "fa-solid fa-angle-left"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                lineNumber: 117,
+                                lineNumber: 139,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                            lineNumber: 111,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2645,33 +2667,33 @@ const LovebirdSlider = ()=>{
                                 className: "fa-solid fa-angle-right"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                                lineNumber: 125,
+                                lineNumber: 147,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                            lineNumber: 119,
+                            lineNumber: 141,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-                    lineNumber: 110,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-            lineNumber: 15,
+            lineNumber: 34,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/homepage/LovebirdSlider.tsx",
-        lineNumber: 14,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 };
-_s(LovebirdSlider, "sCcRn+ZSKgDvFtwJgX0m//9rNHk=");
+_s(LovebirdSlider, "pc3ksGMSQJ4GrxliZLdsIn5jihQ=");
 _c = LovebirdSlider;
 const __TURBOPACK__default__export__ = LovebirdSlider;
 var _c;

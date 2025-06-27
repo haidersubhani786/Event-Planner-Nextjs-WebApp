@@ -272,7 +272,6 @@ nav.lovebird_menu span {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   z-index: 999;
   transition: background 0.3s, box-shadow 0.3s;
-  /* Remove or adjust padding/margin if needed */
 }
 
 .main_sticky {
@@ -354,6 +353,8 @@ nav.lovebird_menu span {
 .header-btn a:hover a {
   color: #fff;
 }
+
+
 
 .header-btn a i {
   display: inline-block;
@@ -607,7 +608,6 @@ button.slider-next {
   transform: translatey(0px);
   transition: all 2500ms ease;
 }
-
 /*
 <!-- =======================================-->
   <!--start  lovebird service area css-->
@@ -6449,3 +6449,31 @@ only screen and (max-width: 479px) {
     transform: rotate(360deg) scale(0.8);
   }
 }
+/* Add this at the end of your CSS file */
+.navbar-hamburger {
+  display: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+.navbar-hamburger span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  margin: 6px 0;
+  background: #232323;
+  transition: 0.4s;
+}
+
+/* Show hamburger on mobile */
+@media (max-width: 991px) {
+  .navbar-hamburger {
+    display: block;
+  }
+  .lovebird_menu {
+    display: none;
+  }
+  .lovebird_menu.active {
+    display: block;
+  }
+}
+

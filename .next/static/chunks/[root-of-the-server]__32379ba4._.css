@@ -34821,6 +34821,35 @@ textarea.form-field:focus {
   }
 }
 
+.navbar-hamburger {
+  cursor: pointer;
+  z-index: 1001;
+  display: none;
+}
+
+.navbar-hamburger span {
+  background: #232323;
+  width: 28px;
+  height: 3px;
+  margin: 6px 0;
+  transition: all .4s;
+  display: block;
+}
+
+@media (width <= 991px) {
+  .navbar-hamburger {
+    display: block;
+  }
+
+  .lovebird_menu {
+    display: none;
+  }
+
+  .lovebird_menu.active {
+    display: block;
+  }
+}
+
 
 /* [project]/public/assets/css/swiper-bundle.css [app-client] (css) */
 @font-face {

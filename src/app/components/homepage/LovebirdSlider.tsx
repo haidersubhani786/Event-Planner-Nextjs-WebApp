@@ -4,31 +4,53 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 
 const LovebirdSlider = () => {
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
+  const [swiperInstance, setSwiperInstance] = useState<any>(null);
+
+  useEffect(() => {
+    if (
+      swiperInstance &&
+      prevRef.current &&
+      nextRef.current &&
+      // @ts-ignore
+      swiperInstance.params.navigation
+    ) {
+      // @ts-ignore
+      swiperInstance.params.navigation.prevEl = prevRef.current;
+      // @ts-ignore
+      swiperInstance.params.navigation.nextEl = nextRef.current;
+      swiperInstance.navigation.destroy();
+      swiperInstance.navigation.init();
+      swiperInstance.navigation.update();
+    }
+  }, [swiperInstance, prevRef, nextRef]);
 
   return (
     <section className="lovebird-slider-area">
       <div className="lovebird-slider-wrapper">
         <Swiper
           modules={[Navigation]}
-          navigation={{
-            prevEl: prevRef.current,
-            nextEl: nextRef.current,
-          }}
-          onInit={(swiper) => {
-            // @ts-ignore
-            swiper.params.navigation.prevEl = prevRef.current;
-            // @ts-ignore
-            swiper.params.navigation.nextEl = nextRef.current;
-            swiper.navigation.init();
-            swiper.navigation.update();
-          }}
+          onSwiper={setSwiperInstance}
           className="lovebird-slider-active"
           loop
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+          }}
         >
           <SwiperSlide>
             <div className="swiper-slide">
@@ -40,10 +62,10 @@ const LovebirdSlider = () => {
                       <div className="lovebird-slider-content text-center">
                         <div className="lovebird-slider-title-box cursor-scale">
                           <span className="lovebird-slider-sub-title">
-                            Save the date for the wedding of June 10,2024
+                            Save the date for the wedding of June 10,2025
                           </span>
                           <h1 className="lovebird-slider-title cursor-scale">
-                            Muskan & Mursalin
+                            Romeo & Juliet
                           </h1>
                         </div>
                         <div className="lovebird-slider-btn">
@@ -78,10 +100,10 @@ const LovebirdSlider = () => {
                       <div className="lovebird-slider-content text-center">
                         <div className="lovebird-slider-title-box cursor-scale">
                           <span className="lovebird-slider-sub-title">
-                            Save the date for the wedding of June 10, 2024
+                            Save the date for the wedding of June 10, 2025
                           </span>
                           <h1 className="lovebird-slider-title cursor-scale">
-                            Muskan & Mursalin
+                            Romeo & Juliet
                           </h1>
                         </div>
                         <div className="lovebird-slider-btn">
