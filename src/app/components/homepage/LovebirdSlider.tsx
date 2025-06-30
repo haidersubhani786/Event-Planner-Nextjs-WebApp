@@ -70,7 +70,7 @@ const LovebirdSlider = () => {
                         </div>
                         <div className="lovebird-slider-btn">
                           <div className="slider-btn">
-                            <a href="about-us.html">wedding</a>
+                            <a href="/contact">wedding</a>
                           </div>
                           <div className="slider-video-btn">
                             <a
@@ -108,7 +108,7 @@ const LovebirdSlider = () => {
                         </div>
                         <div className="lovebird-slider-btn">
                           <div className="slider-btn">
-                            <a href="about-us.html">wedding</a>
+                            <a href="/contact">wedding</a>
                           </div>
                           <div className="slider-video-btn">
                             <a
