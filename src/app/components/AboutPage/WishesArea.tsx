@@ -21,7 +21,7 @@ const WishesArea = () => {
                             </div>
                           </div>
                           <div className="wishes-btn">
-                              <a href="story.html">discover more</a>
+                              <a href="#">discover more</a>
                           </div>
                       </div>
                   </div>

@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import BrideGroomCards from "../components/homepage/BrideGroomCards";
 import CounterArea from "../components/homepage/CounterArea";
@@ -13,9 +14,13 @@ import BrandArea from "../components/homepage/BrandArea";
 import LovebirdSliderNavbar from "../components/homepage/LovebirdSlider";
 import FooterArea from "../components/FooterArea";
 
+import { useSelector} from "react-redux";
+
 
 
 export default function Home() {
+  const userData=useSelector((state:any) => state.auth.userData);
+  console.log(userData,"data from the redux")
   return (
     <>
      

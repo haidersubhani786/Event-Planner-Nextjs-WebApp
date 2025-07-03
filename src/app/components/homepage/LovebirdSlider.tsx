@@ -5,11 +5,15 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useRef, useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 
 const LovebirdSlider = () => {
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
   const [swiperInstance, setSwiperInstance] = useState<any>(null);
+  const userData=useSelector((state:any)=>state.auth.userData);
+
+  
 
   useEffect(() => {
     if (
@@ -62,10 +66,10 @@ const LovebirdSlider = () => {
                       <div className="lovebird-slider-content text-center">
                         <div className="lovebird-slider-title-box cursor-scale">
                           <span className="lovebird-slider-sub-title">
-                            Save the date for the wedding of June 10,2025
+                            {(userData?.hero_section ||"Save the date for the wedding of June 10,2025")}
                           </span>
                           <h1 className="lovebird-slider-title cursor-scale">
-                            Romeo & Juliet
+                             {userData?.company_name || "Romeo & Juliet"}
                           </h1>
                         </div>
                         <div className="lovebird-slider-btn">
@@ -77,7 +81,7 @@ const LovebirdSlider = () => {
                               className="video-vemo-icon venobox vbox-item"
                               data-vbtype="youtube"
                               data-autoplay="true"
-                              href="https://www.youtube.com/watch?v=Wx48y_fOfiY"
+                              href="/"
                             >
                               <i className="fa-solid fa-play"></i>
                             </a>
@@ -100,10 +104,10 @@ const LovebirdSlider = () => {
                       <div className="lovebird-slider-content text-center">
                         <div className="lovebird-slider-title-box cursor-scale">
                           <span className="lovebird-slider-sub-title">
-                            Save the date for the wedding of June 10, 2025
+                            {userData?.hero_section || "Save the date for the wedding of June 10, 2025"}
                           </span>
                           <h1 className="lovebird-slider-title cursor-scale">
-                            Romeo & Juliet
+                            {userData?.company_name || "Romeo & Juliet"}
                           </h1>
                         </div>
                         <div className="lovebird-slider-btn">

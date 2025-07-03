@@ -19,7 +19,7 @@ export default function BrideGroomCards() {
               <div className="service-content">
                 <h5 className="service-sub-title" >THE BRIDE</h5>
                 <h1 className="service-title" >
-                  <a href="service-details.html">Mariya Muskan</a>
+                  <a href="service-details.html">Juliet Romeo</a>
                 </h1>
                 <p className="service-desc">
                   There are many variations of passages of Loremos Ipsum their a
@@ -60,7 +60,7 @@ export default function BrideGroomCards() {
               <div className="service-content">
                 <h5 className="service-sub-title">THE GROOM</h5>
                 <h1 className="service-title">
-                  <a > Muskan Mariya</a>
+                  <a > Romeo Juliet</a>
                 </h1>
                 <p className="service-desc">
                   There are many variations of passages of Loremos Ipsum their a

@@ -6,7 +6,7 @@ const AboutArea2 = () => {
     <div className="about-area style-2">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xl-5 col-lg-6">
+          <div className="col-xl-5 col-lg-6 order-lg-1 order-2">
             <div className="about-content">
               <div className="section-title text-left cursor-scale">
                 <div className="section-sub-title">
@@ -33,14 +33,15 @@ const AboutArea2 = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-7 col-lg-6 pr-0">
+          <div className="col-xl-7 col-lg-6 pr-0 order-lg-2 order-1">
             <div className="about-thumb">
               <Image
                 src="/assets/images/home-1/about-thumb4.jpg"
                 alt="thumb"
                 width={875}
                 height={700}
-                style={{  }}
+                style={{ width: '100%', height: 'auto' }}
+                priority
               />
             </div>
           </div>

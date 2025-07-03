@@ -12,7 +12,7 @@ const TeamArea = () => {
     {
       img: "/assets/images/home-2/team-thumb2.jpg",
       heading1: "William John",
-      heading2: "Spacial Guest",
+      heading2: "Special Guest",
     },
     {
       img: "/assets/images/home-2/team-thumb3.jpg",
@@ -30,7 +30,7 @@ const TeamArea = () => {
               data-aos="flip-up"
             >
               <div className="section-sub-title">
-                <h5>SPACIAL GUEST</h5>
+                <h5>SPECIAL GUEST</h5>
               </div>
               <div className="section-main-title cursor-scale">
                 <h3>Our Wedding Professionals</h3>

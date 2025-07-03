@@ -13,7 +13,7 @@ const AboutArea = () => {
                 alt="thumb"
                 width={875}
                 height={700}
-                style={{ }}
+                style={{ width: '100%'}}
               />
             </div>
           </div>

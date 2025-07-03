@@ -1,6 +1,9 @@
+"use client"
 import React from 'react'
+import { useSelector } from 'react-redux'
 
 const ContactArea = () => {
+  const userData=useSelector((state:any)=>state.auth.userData)
   return (
     <div className="contact-section">
       <div className="container">
@@ -44,7 +47,7 @@ const ContactArea = () => {
                         <h5>Email</h5>
                       </div>
                       <div className="contact-addres">
-                        <p>info@yourmail.com</p>
+                        <p>{`info@${userData?.company_name}.com` || "info@example.com"} </p>
                       </div>
                     </div>
                   </div>

@@ -41,6 +41,24 @@ const ShopArea = () => {
       price: "$340.00",
       originalPrice: "$390.00",
     },
+     {
+      img: "/assets/images/inner/shop-7.jpg",
+      title: "Food",
+      price: "$340.00",
+      originalPrice: "$390.00",
+    },
+    {
+      img: "/assets/images/inner/shop-8.jpg",
+      title: "Decor",
+      price: "$340.00",
+      originalPrice: "$390.00",
+    },
+    {
+      img: "/assets/images/inner/shop-9.jpg",
+      title: "Bed Design",
+      price: "$340.00",
+      originalPrice: "$390.00",
+    },
   ];
   return (
     <div className="shop-area d-flex align-items-center">
@@ -63,7 +81,7 @@ const ShopArea = () => {
                     </h4>
                   </div>
                   <div className="shop-button">
-                    <a href="shop-details.html">Learn More</a>
+                    <a href="#">Learn More</a>
                   </div>
                   <div className="shoping-processing">
                     <div className="shoping-process">
@@ -72,7 +90,7 @@ const ShopArea = () => {
                       </a>
                     </div>
                     <div className="add-to-cart">
-                      <a href="cart.html"> Add to cart</a>
+                      <a href="#"> Add to cart</a>
                     </div>
                   </div>
                 </div>

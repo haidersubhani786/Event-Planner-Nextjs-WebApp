@@ -29,13 +29,11 @@ const WeddingEventArea = () => {
                 <span>01</span>
               </div>
               <div className="wedding-title">
-                <h1>Lunch Time</h1>
+                <h1>Catering & Cuisine</h1>
               </div>
               <div className="wedding-desc">
                 <p>
-                  The wedding ceremony is the heart of any celebration. It's the
-                  moment when the couple exchange vows and commit to spending
-                  the rest of their lives together.
+                  From plated dinners to live stations and buffets, we craft custom menus to suit all tastes, served by expert chefs for a truly memorable experience.
                 </p>
               </div>
             </div>
@@ -46,13 +44,11 @@ const WeddingEventArea = () => {
                     <span>02</span>
                   </div>
                   <div className="wedding-title">
-                    <h1>Cake Cutting</h1>
+                    <h1>Décor & Styling</h1>
                   </div>
                   <div className="wedding-desc">
                     <p>
-                      The wedding ceremony is the heart of any celebration. It's
-                      the moment when the couple exchange vows and commit to
-                      spending the rest of their lives together.
+                      From rustic charm to modern luxury, our décor team brings your theme to life with elegant setups, lighting, florals, and custom backdrops.
                     </p>
                   </div>
                 </div>
@@ -87,6 +83,39 @@ const WeddingEventArea = () => {
                   />
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <div style={{ position: "relative" }}>
+                  <Image
+                    src="/assets/images/home-1/cup-dessert.jpg"
+                    alt="thumb"
+                    width={400}
+                    height={547}
+                    style={{ width: '100%' }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div style={{ position: "relative" }}>
+                  <Image
+                    src="/assets/images/home-1/just-married-car-with-cans.jpg"
+                    alt="thumb"
+                    width={400}
+                    height={547}
+                    style={{ width: '100%' }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div style={{ position: "relative" }}>
+                  <Image
+                    src="/assets/images/home-1/beautiful-wedding-table-arrangement-outside.jpg"
+                    alt="thumb"
+                    width={400}
+                    height={547}
+                    style={{ width: '100%'}}
+                  />
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
           <div className="col-lg-4 pl-0">
@@ -95,13 +124,11 @@ const WeddingEventArea = () => {
                 <span>03</span>
               </div>
               <div className="wedding-title">
-                <h1>Wedding Ceremony</h1>
+                <h1>Full-Service Event Planning</h1>
               </div>
               <div className="wedding-desc">
                 <p>
-                  The wedding ceremony is the heart of any celebration. It's the
-                  moment when the couple exchange vows and commit to spending
-                  the rest of their lives together.
+                  We handle planning, vendors, logistics, and on-site coordination, ensuring your event runs smoothly while you enjoy every moment stress-free.
                 </p>
               </div>
             </div>
@@ -112,13 +139,11 @@ const WeddingEventArea = () => {
                     <span>04</span>
                   </div>
                   <div className="wedding-title">
-                    <h1>Party with Music</h1>
+                    <h1>Moments & Memories</h1>
                   </div>
                   <div className="wedding-desc">
                     <p>
-                      The wedding ceremony is the heart of any celebration. It's
-                      the moment when the couple exchange vows and commit to
-                      spending the rest of their lives together.
+                      From live music to interactive stations, we create memorable experiences that delight guests and add a personal touch to every moment of your event.
                     </p>
                   </div>
                 </div>

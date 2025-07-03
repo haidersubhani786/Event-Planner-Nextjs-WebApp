@@ -9,6 +9,8 @@ import FooterArea from "./components/FooterArea";
 import Loader from "./components/loader";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import { Provider } from "react-redux";
+import store from "@/store/AuthStore";
 
 const italianno = Italianno({
   weight: "400",
@@ -43,9 +45,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {loading && <Loader />}
-        <Navbar />
+        <Provider store={store}>
         {children}
-        <FooterArea />
+        </Provider>
         <ScrollupArea />
       </body>
     </html>

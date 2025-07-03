@@ -1,7 +1,10 @@
-import React from 'react'
-import Image from 'next/image'
+"use client";
+import React from "react";
+import Image from "next/image";
+import { useSelector } from "react-redux";
 
 const WeddingStory = () => {
+  const userData = useSelector((state: any) => state.auth.userData);
   return (
     <div className="about-us-area">
       <div className="container">
@@ -13,7 +16,7 @@ const WeddingStory = () => {
                 alt="thumb"
                 width={381}
                 height={647}
-                style={{ }}
+                style={{}}
               />
               <div className="about-thu">
                 <Image
@@ -35,8 +38,12 @@ const WeddingStory = () => {
                 </div>
                 <div className="section-title-desc">
                   <p>
-                    We believe in delivering tailored solutions that are designed to address requirements.
-                    unique requirements. We take the time to We take the time
+                    {Array.isArray(userData?.paragraphs) &&
+                    userData?.paragraphs.length > 0
+                      ? userData?.paragraphs[
+                          Math.floor(Math.random() * userData?.paragraphs.length)
+                        ]
+                      : "We believe in delivering tailored solutions that are designed to address unique requirements. We take the time to understand your goals and deliver accordingly."}
                   </p>
                 </div>
               </div>
@@ -50,8 +57,9 @@ const WeddingStory = () => {
               </div>
               <div className="about-desc cursor-scale">
                 <p>
-                  Services are professional offerings provided. Services are professional offerings
-                  provided. professional w offerings provided.
+                  Services are professional offerings provided. Services are
+                  professional offerings provided. professional w offerings
+                  provided.
                 </p>
               </div>
               <div className="about-item-box cursor-scale">
@@ -64,19 +72,20 @@ const WeddingStory = () => {
               </div>
               <div className="about-desc cursor-scale">
                 <p>
-                  Services are professional offerings provided. Services are professional offerings
-                  provided. professional w offerings provided.
+                  Services are professional offerings provided. Services are
+                  professional offerings provided. professional w offerings
+                  provided.
                 </p>
               </div>
               <div className="about-us-btn">
-                <a href="about-us.html">Discover more</a>
+                <a href="#">Discover more</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default WeddingStory
+export default WeddingStory;

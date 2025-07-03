@@ -993,7 +993,7 @@ h2.counter-title {
 }
 
 .about-area.style-2 .section-title-desc p {
-  padding: 0 0px 0 100px;
+  /* padding: 0 0px 0 100px; */
 }
 
 .service-section .section-title.text-center {
@@ -1175,7 +1175,7 @@ h2.counter-title {
 }
 
 .about-area.style-2 .about-content {
-  padding: 136px 75px 0 0px;
+  padding: 70px 75px 0 0px;
   text-align: right;
 }
 
